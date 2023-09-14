@@ -1,5 +1,58 @@
 {
-    "users": [{"id": 1, "name": "Myra"}],
-    "albums": [],
-    "photos": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Fredrick Bartoletti",
+      "id": 2
+    },
+    {
+      "name": "Brad Wuckert",
+      "id": 3
+    },
+    {
+      "name": "Roman Friesen",
+      "id": 4
+    },
+    {
+      "name": "Delbert Crist",
+      "id": 5
+    },
+    {
+      "name": "Marjorie Rogahn",
+      "id": 6
+    },
+    {
+      "name": "Brandi Hills",
+      "id": 7
+    },
+    {
+      "name": "Milton Stamm",
+      "id": 8
+    },
+    {
+      "name": "Abraham Conn",
+      "id": 9
+    },
+    {
+      "name": "Randolph Farrell",
+      "id": 10
+    },
+    {
+      "name": "Jeannie MacGyver",
+      "id": 11
+    },
+    {
+      "name": "Sheri Goyette",
+      "id": 12
+    },
+    {
+      "name": "Dr. Bobby Nikolaus PhD",
+      "id": 13
+    }
+  ],
+  "albums": [],
+  "photos": []
 }

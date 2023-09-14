@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUsers } from "../store";
 import Skeleton from "./Skeleton";
+import Button from "./Button";
+import { addUser } from "../store";
 
 const UsersList = () => {
   const dispatch = useDispatch();
@@ -12,6 +14,10 @@ const UsersList = () => {
   useEffect(() => {
     dispatch(fetchUsers());
   }, [dispatch]);
+
+  const handleUserAdd = () => {
+    dispatch(addUser());
+  };
 
   if (isLoading) {
     return <Skeleton times={6} className="h-10 w-full" />;
@@ -29,7 +35,16 @@ const UsersList = () => {
       </div>
     );
   });
-  return <div>{renderedUsers}</div>;
+  return (
+    <div>
+      <div className="flex flex-row justify-between m-3">
+        <h1 className="m-2 text-xl">Users</h1>
+        <Button onClick={handleUserAdd}> + Add User</Button>
+      </div>
+
+      {renderedUsers}
+    </div>
+  );
 };
 
 export default UsersList;
