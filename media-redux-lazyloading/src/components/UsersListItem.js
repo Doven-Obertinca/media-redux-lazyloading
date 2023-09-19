@@ -8,7 +8,7 @@ const UsersListItem = ({ user }) => {
   const [doRemoveUser, isLoading, error] = useThunk(removeUser);
 
   const handleClick = () => {
-    doRemoveUser();
+    doRemoveUser(user);
   };
   return (
     <div className="mb-2 border rounded">
