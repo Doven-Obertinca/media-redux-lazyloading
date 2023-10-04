@@ -13,10 +13,17 @@
       "id": 3
     }
   ],
-  "albums": [{
-    "id": 10,
-    "title": "Hiking Trip",
-    "userId": 1
-  }],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "title": "Sleek Steel Pants",
+      "id": 11
+    }
+  ],
   "photos": []
 }
