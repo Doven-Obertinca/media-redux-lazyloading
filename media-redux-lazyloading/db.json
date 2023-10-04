@@ -15,15 +15,56 @@
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": 1
+      "userId": 1,
+      "title": "Elegant Frozen Soap",
+      "id": 14
     },
     {
       "userId": 1,
-      "title": "Sleek Steel Pants",
-      "id": 11
+      "title": "Awesome Plastic Computer",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "title": "Fantastic Wooden Shoes",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "title": "Sleek Concrete Towels",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "title": "Unbranded Wooden Fish",
+      "id": 18
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 14,
+      "url": "https://loremflickr.com/150/150/abstract?lock=6874080053559296",
+      "id": 1
+    },
+    {
+      "albumId": 14,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4064547237265408",
+      "id": 2
+    },
+    {
+      "albumId": 14,
+      "url": "https://loremflickr.com/150/150/abstract?lock=2881682862505984",
+      "id": 3
+    },
+    {
+      "albumId": 14,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4668010063200256",
+      "id": 4
+    },
+    {
+      "albumId": 14,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1704377762971648",
+      "id": 5
+    }
+  ]
 }
